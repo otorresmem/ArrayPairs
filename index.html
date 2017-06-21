@@ -1,0 +1,67 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Array FUNction</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="arrayfunction.css">
+
+</head>
+
+<body>
+    <div class="header">
+        <h1 id="pageTitle" class="array-function-special-font">Array FUNction<span id="firm" class="cash-register-normal-font">by Oscar Torres</span></h1>
+    </div>
+    <div class="container" id="mainContainer">
+        
+        <p>
+            <strong>Function explanation:</strong> Given an array arr, find element pairs whose sum equal the second argument arg and return the
+            sum of their indices. If multiple pairs are possible that have the same numeric elements but
+            different indices, return the smallest sum of indices. Once an element has been used, it cannot
+            be reused to pair with another.
+        </p>
+        <p>Please, fill the arguments for the function:</p>
+
+        <div class="row">
+            <div class="col-md-6">
+
+                <form>
+                    <div class="form-group">
+                        <label for="array" class="array-function-special-font">Arg 1 (The array)</label>
+                        <input type="text" tabindex="1" class="form-control" id="array" placeholder="">
+                        <p class="help-block">Write numeric elements separated by commas. For example: 7, 9, 11, 13, 15</p>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="sum" class="array-function-special-font">Arg 2 (The sum)</label>
+                        <input type="text" tabindex="2" class="form-control" id="sum" placeholder="">
+                        <p class="help-block">Write any number.</p>
+                    </div>
+
+
+                    <div id="btnCalculateContainer" class="array-function-special-font">
+                        <a id="btnCalculate" class="btn btn-lg btn-calculate" href="#">Calculate</a>
+                    </div>
+
+                </form>
+
+                <div id="result" class="hidden">
+                    <div id="resultTitle" class="top-buffer array-function-special-font">Result:</div>
+                    <div id="resultContainer" class="statusY array-function-special-font">
+                    </div>
+                    <div id="errorContainer" class="statusN array-function-special-font">
+                        Error.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script lang="en-us" type="text/javascript" src="./src/arrayfunction.js"></script>
+
+
+</body>
+</html>

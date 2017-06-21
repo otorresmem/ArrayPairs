@@ -1,0 +1,65 @@
+﻿html, body, div, span, h1, img {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    margin: 10px 0px 10px 20px;
+}
+
+h1 {
+    font-size: 250%;
+    font-weight: bold;
+    color: #00809e;
+}
+
+#mainContainer {
+    margin: 0;
+}
+
+.array-function-special-font {
+    font-family: Courier New, Courier, monospace;
+}
+
+#pageTitle {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#firm {
+    font-size: 25%;
+    margin-left: 5px;
+    font-style: italic;
+}
+
+.top-buffer {
+    margin-top: 20px;
+}
+
+.btn-calculate {
+    color: black;
+    background-color: darkgrey;
+    border-color: #898888;
+    border-width: 2px;
+    font-size: 120%;
+    font-weight: bold;
+}
+
+#resultTitle {
+    font-weight: bold;
+    font-size: 130%;
+}
+
+.statusY {
+    font-weight: bold;
+    color: forestgreen;
+    font-size: 250%;
+}
+
+.statusN {
+    font-weight: bold;
+    color: darkred;
+    font-size: 200%;
+}
