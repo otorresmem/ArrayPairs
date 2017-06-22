@@ -29,14 +29,14 @@ But, what happen if the array has duplicated values? Doesn't matter because each
 The flow goes as follow:
 
  1. The process iterates over the array of elements and insert each item on the hash structure. Time=>O(n)
-	 2. When the element is inserted on the hash structure, the array value represents the hash key, and then, the hash value has an array of all the indices that have the same hash key on the array,
+ 2. When the element is inserted on the hash structure, the array value represents the hash key, and then, the hash value has an array of all the indices that have the same hash key on the array,
 	 
 
-> Given the array [3, 2, 3], the hash structure has the following elemens: [3] = [0,2] and [2]=[2]
-> The insert time of every item on the hash structure is O(1)
+	> Given the array [3, 2, 3], the hash structure has the following elemens: [3] = [0,2] and [2]=[2]
+	> The insert time of every item on the hash structure is O(1)
 
- 2. The process iterates again over the array of elements to look for the pair of elements that complement each other whose sum is equal to the expected result. Time=>O(n)
- 3.  If the application finds a couple of elements that complement each other, then the respective result sum is kept and each of the items is removed from the hash structure. That way, the requirement that says "*If multiple pairs are possible that have the same numeric elements but different indices, return the smallest sum of indices.*" is fullfilled
+ 3. The process iterates again over the array of elements to look for the pair of elements that complement each other whose sum is equal to the expected result. Time=>O(n)
+ 4.  If the application finds a couple of elements that complement each other, then the respective result sum is kept and each of the items is removed from the hash structure. That way, the requirement that says "*If multiple pairs are possible that have the same numeric elements but different indices, return the smallest sum of indices.*" is fullfilled
 # Todo
 1. Implement validations.
 
